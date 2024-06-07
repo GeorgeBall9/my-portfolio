@@ -1,28 +1,48 @@
-import Link from 'next/link';
-import { FaHome, FaInfoCircle, FaProjectDiagram, FaEnvelope } from 'react-icons/fa';
-import './Header.css';
+import Link from "next/link";
+import {
+  FaHome,
+  FaInfoCircle,
+  FaProjectDiagram,
+  FaEnvelope,
+} from "react-icons/fa";
+import "./Header.css";
 
 const Header = () => (
   <header className="header-container">
     <nav>
       <Link href="/" legacyBehavior>
         <a className="nav-link">
-          <FaHome className="nav-icon" /> Home
+          <img
+            src="/images/icons/house.svg"
+            alt="Home Icon"
+            className="nav-icon"
+          />{" "}
+          Home
         </a>
       </Link>
       <Link href="/about" legacyBehavior>
         <a className="nav-link">
-          <FaInfoCircle className="nav-icon" /> About
+          <img
+            src="/images/icons/question.svg"
+            alt="About Icon"
+            className="nav-icon"
+          />{" "}
+          About
         </a>
       </Link>
       <Link href="/#projects" legacyBehavior>
         <a className="nav-link">
-          <FaProjectDiagram className="nav-icon" /> Projects
+          <img
+            src="/images/icons/project-management.svg"
+            alt="Projects Icon"
+            className="nav-icon"
+          />{" "}
+          Projects
         </a>
       </Link>
       <Link href="/contact" legacyBehavior>
         <a className="nav-link">
-          <FaEnvelope className="nav-icon" /> Contact
+        <img src="/images/icons/mail.svg" alt="About Icon" className="nav-icon" /> Contact
         </a>
       </Link>
     </nav>
