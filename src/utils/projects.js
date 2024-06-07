@@ -51,8 +51,48 @@ This experience not only solidified my technical skills but also taught me the i
     title: "Python Machine Learning Tool",
     description:
       "A Machine Learning tool for credit card clustering. Developed for my Thesis.",
+    extendedDesc: `
+## Overview
+This study was prompted by a recognition of a significant problem in contemporary marketing: the need to better understand customer behaviours for optimising marketing campaigns. Having recognised this problem, an opportunity was identified to deploy an innovative computer science-based solution in support of marketing, specifically concerning credit card customers. More particularly, the direct application of appropriately deployed ML algorithms as a novel tool for customer segmentation was considered to offer an effective means to meaningfully enhance marketing campaigns within the FinTech industry.
+
+## Key Responsibilities and Achievements:
+- **Tool Development in Python**: The primary aim was to develop and deliver an innovative tool in Python to process a credit card dataset and gain important data insights into customer behaviours for future marketing purposes. The tool utilised an auto-encoder for data de-noising, K-means for clustering, and RFM analysis for data evaluation.
+- **Agile Methodology**: Adopted the Agile development model to facilitate an iterative, refining, and flexible approach. This model allowed for continuous testing and improvement throughout the development process.
+- **Data Pre-processing and EDA**: The dataset was an anonymised credit card dataset obtained from Kaggle. Data collection and pre-processing included initial data analysis, handling missing values, dropping unnecessary columns, and data normalisation. Exploratory data analysis (EDA) involved creating a correlation heatmap and visualising credit limit relationships and purchasing behaviour by tenure.
+- **RFM Analysis**: Calculated recency, frequency, and monetary values for each credit card customer and visualised the resulting customer segments.
+- **Auto-encoder and K-means Clustering**: Data were encoded using a specially designed and trained auto-encoder. The K-means clustering model, constructed with an optimal number of clusters determined through inertia and silhouette score plots, produced five distinct customer segments for critical evaluation and visualisation.
+- **Main Script Implementation**: Developed a main script to streamline the entire process, demonstrating the effectiveness of the methodology and the robustness of the ML tool.
+- **Evaluation and Visualisation**: Performance was evaluated using various metrics, and areas for potential improvement were identified. The visualisation stage allowed for an assessment of cluster quality and provided actionable insights from raw credit card data.
+
+## Skills Acquired and Lessons Learned:
+- **Proficiency in Python**: Significantly improved proficiency in Python programming, particularly in implementing and applying ML algorithms.
+- **ML Algorithms and Their Applications**: Gained a solid understanding of ML algorithms, their practical applications, and their potential to transform sectors like the FinTech industry.
+- **Data Analysis and Visualisation**: Enhanced skills in data analysis and visualisation, crucial for effective marketing strategies in the FinTech industry.
+- **Agile Methodology**: The Agile approach facilitated iterative development and continuous improvement, valuable for future projects.
+- **Advanced ML Techniques**: The knowledge gained opens the possibility of exploring more advanced ML techniques and models in future projects.
+
+In conclusion, the project not only achieved its objectives but also served as a steppingstone for further exploration and growth in the field of ML and FinTech. The skills and knowledge gained will be instrumental in navigating future projects and challenges in this booming industry.
+
+      `,
     link: "/projects/project-2",
-    images: [],
+    images: [
+      {
+        src: "/images/machineTool/histograms.png",
+        caption: "Histogram Representation of variables",
+      },
+      {
+        src: "/images/machineTool/heatmap_correlation.png",
+        caption: "Heatmap of correlation between variables",
+      },
+      {
+        src: "/images/machineTool/credit_limit_vs_balance.png",
+        caption: "Credit Limit vs Balance Scatter Plot",
+      },
+      {
+        src: "/images/machineTool/clusters.png",
+        caption: "Credit Card Customer Clustering using K-Means",
+      },
+    ],
     tech: ["Python", "Scikit-learn", "Pandas"],
   },
   {
