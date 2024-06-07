@@ -9,7 +9,9 @@ const Contact = () => (
       <title>Contact Me</title>
     </Head>
     <Header />
-    <ContactForm />
+    <main>
+      <ContactForm />
+    </main>
     <Footer />
   </>
 );
