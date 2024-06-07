@@ -8,7 +8,7 @@
     border-radius: 8px;
     text-align: left;
     box-sizing: border-box;
-    height: 250px; /* Set a fixed height */
+    height: 100%; /* Set a fixed height */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,7 +44,6 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 1em;
   }
   
   .tech-icon {
