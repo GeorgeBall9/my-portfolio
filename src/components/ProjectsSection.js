@@ -14,6 +14,7 @@ const ProjectsSection = () => (
             title={project.title}
             description={project.description}
             link={project.link}
+            tech={project.tech} 
           />
         ))}
       </div>

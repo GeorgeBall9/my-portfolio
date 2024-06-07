@@ -22,7 +22,7 @@
     margin: 1em;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    text-align: center;
+    text-align: left;
     box-sizing: border-box;
     height: 250px; /* Set a fixed height */
     display: flex;
