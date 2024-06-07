@@ -1,8 +1,9 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import JourneySection from "../components/JourneySection";
-import Footer from "../components/Footer";
-import { Main } from "next/document";
+import Head from 'next/head';
+import Header from '../components/Header';
+import Introduction from '../components/Introduction';
+import ProjectsSection from '../components/ProjectsSection';
+import Footer from '../components/Footer';
+import '../styles/global.css';
 
 const Home = () => (
   <>
@@ -12,9 +13,10 @@ const Home = () => (
     </Head>
     <Header />
     <main>
-      <JourneySection />
-      <Footer />
+      <Introduction />
+      <ProjectsSection />
     </main>
+    <Footer />
   </>
 );
 
