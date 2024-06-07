@@ -8,7 +8,7 @@ const HeaderContainer = styled.header`
 
 const Header = () => (
   <HeaderContainer>
-    <h1>Your Name</h1>
+    <h1>George Ball</h1>
   </HeaderContainer>
 );
 
