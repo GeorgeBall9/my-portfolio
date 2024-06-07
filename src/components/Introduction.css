@@ -7,9 +7,15 @@
   text-align: left;
 }
 
+.intro-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
 .introduction-container {
   max-width: 800px;
-  margin: 0 auto;
 }
 
 .introduction h1 {
@@ -22,4 +28,15 @@
   color: var(--font-color-base);
   max-width: 450px;
   line-height: 1.6;
+}
+
+.profile-pic-container {
+  flex-shrink: 0;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
