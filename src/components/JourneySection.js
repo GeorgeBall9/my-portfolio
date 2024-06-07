@@ -1,24 +1,33 @@
-import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { Element } from 'react-scroll';
+import projects from '../utils/projects';
+import './JourneySection.css';
 
-const Section = styled.section`
-  padding: ${({ theme }) => theme.spacing.padding};
-`;
-
-const JourneySection = () => (
-  <Element name="journey">
-    <Section>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
-        <h2>My Journey</h2>
-        {/* Add your project cards or content here */}
-      </motion.div>
-    </Section>
-  </Element>
-);
+const JourneySection = () => {
+  return (
+    <section className="section">
+      <div className="journey-container">
+        <h2>Hey, I'm George</h2>
+        {projects.map((project, index) => (
+          <motion.div 
+            key={index} 
+            className="project-card" 
+            whileHover={{ scale: 1.05 }}
+          >
+            <h3>{project.title}</h3>
+            <div className="image-container">
+              {project.images.map((image, imgIndex) => (
+                <img
+                  key={imgIndex}
+                  src={image}
+                  alt={`${project.title} image ${imgIndex + 1}`}
+                />
+              ))}
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
 export default JourneySection;
