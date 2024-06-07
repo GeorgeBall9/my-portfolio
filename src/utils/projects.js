@@ -100,8 +100,43 @@ In conclusion, the project not only achieved its objectives but also served as a
     date: 2023,
     title: "Unify",
     description: "A Spotify powered web application matching users.",
+    extendedDesc: `
+## Overview
+This project, "Unify," marks my first independent project as part of a small team outside of academia. We aimed to develop a user-friendly web application that leverages modern web technologies and offers a seamless user experience.
+
+## Key Responsibilities and Achievements:
+- **Web Application Development**: Developed "Unify," a user-friendly web application using ReactJS, Zustand, and Firebase. The project was recently approved by Spotify and is awaiting launch. This achievement underscores the application's robustness and compliance with industry standards.
+- **Seamless User Experience**: Focused on delivering a seamless user experience by implementing efficient state management with Zustand and intuitive UI components with ReactJS. This focus ensured that users could interact with the application smoothly and without any hiccups.
+- **Spotify API Integration**: Integrated Spotify API to provide personalized music data to users. Developed a compatibility algorithm to match users based on their music preferences, enhancing the application's value proposition by offering unique, data-driven insights.
+- **Overcoming Development Challenges**: Successfully overcame the challenges of developing a multi-feature platform as a small team of two individuals. This involved adopting new technologies, coding practices, and collaborative problem-solving techniques to ensure the project's success.
+
+## Skills Acquired and Lessons Learned:
+- **Proficiency in ReactJS**: Enhanced my proficiency in ReactJS, focusing on building reusable components and managing complex application states.
+- **State Management with Zustand**: Gained a deep understanding of Zustand for state management, enabling efficient handling of application state without the overhead of more complex state management libraries.
+- **API Integration**: Developed skills in integrating third-party APIs, specifically the Spotify API, to fetch and utilize personalized user data.
+- **Collaboration and Project Management**: Improved my ability to collaborate effectively in a small team, manage project timelines, and ensure quality control through continuous integration and deployment practices.
+
+In conclusion, the "Unify" project not only achieved its objectives but also served as a significant learning experience in web application development, state management, and API integration. The skills and knowledge gained will be instrumental in navigating future projects and challenges in the tech industry.
+`,
     link: "/projects/project-3",
-    images: [],
+    images: [
+      {
+        src: "/images/unify/unify-figma.jpg",
+        caption: "The Figma Design of Unify",
+      },
+      {
+        src: "/images/unify/unify-overview.png",
+        caption: "Profile Overview Page",
+      },
+      {
+        src: "/images/unify/artists.png",
+        caption: "A User's Top Artists Page",
+      },
+      {
+        src: "/images/unify/users.png",
+        caption: "Viewing other users' profiles",
+      },
+    ],
     tech: ["React", "Spotify API", "Firebase", "Zustand"],
   },
   // Add more projects as needed
