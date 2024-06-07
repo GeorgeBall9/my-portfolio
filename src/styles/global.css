@@ -1,0 +1,61 @@
+/* src/styles/global.css */
+
+:root {
+    --background-color: var(--gray-10);
+    --card-background-color: var(--gray-9);
+    --font-color-heading: white;
+    --font-color-heading3: white;
+    --font-color-base: var(--gray-3);
+    --font-color-muted: var(--gray-5);
+    --font-color-bright: white;
+    --border-color: var(--gray-7);
+    --border-color-hover: var(--gray-6);
+    --button-background-color: var(--gray-8);
+    --post-time-color: var(--green);
+  
+    --gray-0: #f9f9f9;
+    --gray-05: #f6f6f6;
+    --gray-1: #eee;
+    --gray-2: #e6e6e6;
+    --gray-3: #ddd;
+    --gray-4: #bbb;
+    --gray-5: #999;
+    --gray-6: #666;
+    --gray-65: #555;
+    --gray-7: #2c2c2c;
+    --gray-8: #252525;
+    --gray-9: #1f1f1f;
+    --gray-10: #181818;
+    --green: #5eddac;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--font-color-base);
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--font-color-heading);
+  }
+  
+  p {
+    color: var(--font-color-base);
+  }
+  
+  nav a {
+    color: var(--font-color-bright);
+  }
+  
+  nav a:hover {
+    color: var(--font-color-heading3);
+  }
+  
