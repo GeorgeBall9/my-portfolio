@@ -1,10 +1,5 @@
 import Link from "next/link";
-import {
-  FaHome,
-  FaInfoCircle,
-  FaProjectDiagram,
-  FaEnvelope,
-} from "react-icons/fa";
+import Image from "next/image";
 import "./Header.css";
 
 const Header = () => (
@@ -12,27 +7,38 @@ const Header = () => (
     <nav>
       <Link href="/" legacyBehavior>
         <a className="nav-link">
-          <img
+          <Image
             src="/images/icons/house.svg"
             alt="Home Icon"
             className="nav-icon"
+            width={200}
+            height={200}
           />{" "}
           Home
         </a>
       </Link>
       <Link href="/about" legacyBehavior>
         <a className="nav-link">
-          <img
+          <Image
             src="/images/icons/question.svg"
             alt="About Icon"
             className="nav-icon"
+            width={200}
+            height={200}
           />{" "}
           About
         </a>
       </Link>
       <Link href="/contact" legacyBehavior>
         <a className="nav-link">
-        <img src="/images/icons/mail.svg" alt="About Icon" className="nav-icon" /> Contact
+          <Image
+            src="/images/icons/mail.svg"
+            alt="About Icon"
+            width={200}
+            height={200}
+            className="nav-icon"
+          />{" "}
+          Contact
         </a>
       </Link>
     </nav>

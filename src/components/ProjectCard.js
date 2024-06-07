@@ -1,15 +1,16 @@
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import './ProjectCard.css';
+import { motion } from "framer-motion";
+import Link from "next/link";
+import "./ProjectCard.css";
+import Image from "next/image";
 
 const techIcons = {
-  React: '/images/icons/react.svg',
-  Firebase: '/images/icons/database.svg',
-  Python: '/images/icons/python.svg',
-  'Scikit-learn': '/images/icons/scikit-learn.svg',
-  Pandas: '/images/icons/pandas.svg',
-  'Spotify API': '/images/icons/spotify.svg',
-  Zustand: '/images/icons/bear.svg',
+  React: "/images/icons/react.svg",
+  Firebase: "/images/icons/database.svg",
+  Python: "/images/icons/python.svg",
+  "Scikit-learn": "/images/icons/scikit-learn.svg",
+  Pandas: "/images/icons/pandas.svg",
+  "Spotify API": "/images/icons/spotify.svg",
+  Zustand: "/images/icons/bear.svg",
 };
 
 const ProjectCard = ({ date, title, description, link, tech }) => (
@@ -20,7 +21,14 @@ const ProjectCard = ({ date, title, description, link, tech }) => (
       <p>{description}</p>
       <div className="tech-icons">
         {tech.map((techName, index) => (
-          <img key={index} src={techIcons[techName]} alt={`${techName} Icon`} className="tech-icon" />
+          <Image
+            key={index}
+            src={techIcons[techName]}
+            alt={`${techName} Icon`}
+            width={200}
+            height={200}
+            className="tech-icon"
+          />
         ))}
       </div>
     </motion.div>
