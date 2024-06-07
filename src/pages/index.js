@@ -1,7 +1,8 @@
-import Head from 'next/head';
-import Header from '../components/Header';
-import JourneySection from '../components/JourneySection';
-import Footer from '../components/Footer';
+import Head from "next/head";
+import Header from "../components/Header";
+import JourneySection from "../components/JourneySection";
+import Footer from "../components/Footer";
+import { Main } from "next/document";
 
 const Home = () => (
   <>
@@ -10,8 +11,10 @@ const Home = () => (
       <meta name="description" content="My personal portfolio website" />
     </Head>
     <Header />
-    <JourneySection />
-    <Footer />
+    <main>
+      <JourneySection />
+      <Footer />
+    </main>
   </>
 );
 
