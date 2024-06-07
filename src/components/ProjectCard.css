@@ -1,0 +1,21 @@
+/* src/components/ProjectCard.css */
+
+.project-card {
+    background: var(--card-background-color);
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 2em);
+    box-sizing: border-box;
+  }
+  
+  .project-card h3 {
+    color: var(--font-color-heading);
+  }
+  
+  .project-card p {
+    color: var(--font-color-base);
+  }
+  
