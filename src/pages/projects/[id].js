@@ -25,7 +25,7 @@ const ProjectPage = () => {
         <div className="project-images-grid">
           {project.images.map((image, index) => (
             <div key={index} className="image-container">
-              <img src={image.src} alt={`${project.title} image ${index + 1}`} />
+              <Image src={image.src} alt={`${project.title} image ${index + 1}`}  width={image.width} height={image.height} />
               <p className="image-caption">{image.caption}</p>
             </div>
           ))}
