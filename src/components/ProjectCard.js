@@ -1,11 +1,11 @@
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import './ProjectCard.css';
+import { motion } from "framer-motion";
+import Link from "next/link";
+import "./ProjectCard.css";
 
 const ProjectCard = ({ date, title, description, link }) => (
   <Link href={link}>
     <motion.div className="project-card" whileHover={{ scale: 1.05 }}>
-      <time>{date}</time>
+      <time className="project-date">{date}</time>
       <h3>{title}</h3>
       <p>{description}</p>
     </motion.div>
