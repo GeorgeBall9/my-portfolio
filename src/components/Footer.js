@@ -1,10 +1,18 @@
+import { SiGithub, SiLinkedin } from 'react-icons/si';
 import './Footer.css';
 
 const Footer = () => (
   <footer className="footer-container">
-    <p>&copy; 2024 Your Name. All Rights Reserved.</p>
     <p>
-      <a href="https://github.com/yourprofile">GitHub</a> | <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>
+      <a href="https://github.com/GeorgeBall9">
+        <SiGithub className="icon" />
+        GitHub
+      </a>
+      {' | '}
+      <a href="https://www.linkedin.com/in/george-ball-513b6b202">
+        <SiLinkedin className="icon" />
+        LinkedIn
+      </a>
     </p>
   </footer>
 );

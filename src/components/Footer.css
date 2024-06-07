@@ -1,25 +1,26 @@
 /* src/components/Footer.css */
 
 .footer-container {
-    background: var(--background-color);
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .footer-container p {
-    margin: 0;
-    padding: 0;
-    color: var(--font-color-muted);
-  }
-  
-  .footer-container a {
-    color: var(--font-color-bright);
-    text-decoration: none;
-    margin: 0 5px;
-  }
-  
-  .footer-container a:hover {
-    text-decoration: underline;
-    color: var(--font-color-heading);
-  }
-  
+  padding: 1em;
+  text-align: center;
+}
+
+.footer-container p {
+  margin: 0;
+  padding: 0;
+  color: var(--font-color-muted);
+}
+
+.footer-container a {
+  color: var(--font-color-bright);
+  text-decoration: none;
+  margin: 0 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  width: 24px; /* Adjust size as needed */
+  height: 24px;
+  margin-right: 8px;
+}
