@@ -10,11 +10,12 @@ const ProjectsSection = () => (
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
+            id={project.id}
             date={project.date}
             title={project.title}
             description={project.description}
             link={project.link}
-            tech={project.tech} 
+            tech={project.tech}
           />
         ))}
       </div>
