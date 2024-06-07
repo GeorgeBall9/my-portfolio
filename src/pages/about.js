@@ -15,10 +15,10 @@ const About = () => (
         <p>
           Hey, I'm George. I'm an aspiring software developer based in the UK.
           I'm passionate about creating innovative solutions and building
-          engaging user experiences. I've recently obtained an MSc Computer
-          Science from the Newcastle univerity, where I developed my skills in
+          engaging user experiences. I've recently obtained an MSc in Computer
+          Science from Newcastle University, where I developed my skills in
           software development and computer science theory. I also obtained a
-          BSc in Mathematics with Finance from here as well!
+          BSc in Mathematics with Finance from there as well!
         </p>
         <p>
           My journey in technology started during my studies, where I developed
@@ -36,6 +36,26 @@ const About = () => (
           Thank you for visiting my website. Feel free to browse through my
           projects and get in touch if you would like to collaborate or learn
           more about my work.
+        </p>
+      </section>
+      <section className="tech-stack">
+        <h2>Tech Stack Used for This Website</h2>
+        <p>
+          This website was built using <strong>Next.js</strong>, a powerful
+          React framework that enables server-side rendering and static site
+          generation. Next.js provides a seamless developer experience with
+          built-in routing, API routes, and extensive support for modern web
+          development practices.
+        </p>
+        <p>
+          For deployment, the site is hosted on <strong>Vercel</strong>, a platform
+          optimized for Next.js applications. Vercel offers automatic deployments,
+          serverless functions, and a global CDN, ensuring fast and reliable
+          performance.
+        </p>
+        <p>
+          The combination of Next.js and Vercel allows for rapid development and
+          deployment, making it easier to maintain and scale the website as needed.
         </p>
       </section>
     </main>
