@@ -5,9 +5,9 @@ const Introduction = () => (
   <section className="introduction">
     <div className="intro-content">
       <div className="introduction-container">
-        <h1>Hey, I'm George</h1>
+        <h1>Hey, I&apos;m George</h1>
         <p>
-          Welcome to my personal website. I'm an aspiring software engineer who
+          Welcome to my personal website. I&apos;m an aspiring software engineer who
           loves to create and learn about technology.
         </p>
       </div>
