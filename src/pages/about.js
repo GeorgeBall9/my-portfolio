@@ -13,9 +13,9 @@ const About = () => (
       <section className="about-content">
         <h1>About Me</h1>
         <p>
-          Hey, I'm George. I'm an aspiring software developer based in the UK.
-          I'm passionate about creating innovative solutions and building
-          engaging user experiences. I've recently obtained an MSc in Computer
+          Hey, I&apos;m George. I&apos;m an aspiring software developer based in the UK.
+          I&apos;m passionate about creating innovative solutions and building
+          engaging user experiences. I&apos;ve recently obtained an MSc in Computer
           Science from Newcastle University, where I developed my skills in
           software development and computer science theory. I also obtained a
           BSc in Mathematics with Finance from there as well!
@@ -23,13 +23,13 @@ const About = () => (
         <p>
           My journey in technology started during my studies, where I developed
           a keen interest in programming and software development. Over the
-          years, I've honed my skills in front-end and back-end development,
+          years, I&apos;ve honed my skills in front-end and back-end development,
           working with technologies such as Java, Python, React, Firebase, and
           various others.
         </p>
         <p>
-          When I'm not coding, I enjoy sports and weight training, playing video games,
-          and exploring new places. I'm always eager to learn and grow, both
+          When I&apos;m not coding, I enjoy sports and weight training, playing video games,
+          and exploring new places. I&apos;m always eager to learn and grow, both
           personally and professionally.
         </p>
         <p>

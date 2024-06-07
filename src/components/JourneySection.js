@@ -7,7 +7,7 @@ const JourneySection = () => {
   return (
     <section className="section">
       <div className="journey-container">
-        <h2>Hey, I'm George</h2>
+        <h2>Hey, I&apos;m George</h2>
         {projects.map((project, index) => (
           <motion.div
             key={index}
