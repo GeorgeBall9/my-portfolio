@@ -21,6 +21,7 @@
     color: var(--font-color-bright);
     text-decoration: none;
     padding: 10px 15px;
+    background-color: var(--button-background-color);
     transition: background 0.3s, color 0.3s;
   }
   
