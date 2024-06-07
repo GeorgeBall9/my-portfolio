@@ -5,6 +5,8 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import './ProjectPage.css';
 
+import Image from 'next/image';
+
 const ProjectPage = () => {
   const router = useRouter();
   const { id } = router.query;
