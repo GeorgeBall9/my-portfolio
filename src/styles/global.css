@@ -59,3 +59,14 @@
     color: var(--font-color-heading3);
   }
   
+  /* src/styles/global.css */
+
+.contact-section {
+  padding: 4em 1em;
+  text-align: center;
+}
+
+.contact-section h1 {
+  margin-bottom: 1em;
+  color: var(--font-color-heading);
+}
