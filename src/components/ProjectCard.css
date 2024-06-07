@@ -40,10 +40,16 @@
     transition: background-color 0.3s, color 0.3s;
   }
 
+  .tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1em;
+  }
+  
   .tech-icon {
-    color: var(--font-color-bright);
-    font-size: 1.5em; /* Adjust size as needed */
-    padding: 0.1em;
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
   }
   
   .project-card a:hover {
