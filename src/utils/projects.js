@@ -29,18 +29,22 @@ This experience not only solidified my technical skills but also taught me the i
       {
         src: "/images/RestaurantApp/restaurant-app-detailspage.jpg",
         caption: "Detail Page",
+        width: 800, height: 600,
       },
       {
         src: "/images/RestaurantApp/restaurant-app-filter.jpg",
         caption: "Filter Page",
+        width: 800, height: 600,
       },
       {
         src: "/images/RestaurantApp/restaurant-app-home.jpg",
         caption: "Home Page",
+        width: 800, height: 600,
       },
       {
         src: "/images/RestaurantApp/restaurant-app-map.jpg",
         caption: "Map Page",
+        width: 800, height: 600,
       },
     ],
     tech: ["React", "Firebase", "Zustand"],
@@ -79,18 +83,22 @@ In conclusion, the project not only achieved its objectives but also served as a
       {
         src: "/images/machineTool/histograms.png",
         caption: "Histogram Representation of variables",
+        width: 800, height: 600,
       },
       {
         src: "/images/machineTool/heatmap_correlation.png",
         caption: "Heatmap of correlation between variables",
+        width: 800, height: 600,
       },
       {
         src: "/images/machineTool/credit_limit_vs_balance.png",
         caption: "Credit Limit vs Balance Scatter Plot",
+        width: 800, height: 600,
       },
       {
         src: "/images/machineTool/clusters.png",
         caption: "Credit Card Customer Clustering using K-Means",
+        width: 800, height: 600,
       },
     ],
     tech: ["Python", "Scikit-learn", "Pandas"],
@@ -123,18 +131,22 @@ In conclusion, the "Unify" project not only achieved its objectives but also ser
       {
         src: "/images/unify/unify-figma.jpg",
         caption: "The Figma Design of Unify",
+        width: 800, height: 600,
       },
       {
         src: "/images/unify/unify-overview.png",
         caption: "Profile Overview Page",
+        width: 800, height: 600,
       },
       {
         src: "/images/unify/artists.png",
         caption: "A User's Top Artists Page",
+        width: 800, height: 600,
       },
       {
         src: "/images/unify/users.png",
         caption: "Viewing other users' profiles",
+        width: 800, height: 600,
       },
     ],
     tech: ["React", "Spotify API", "Firebase", "Zustand"],
