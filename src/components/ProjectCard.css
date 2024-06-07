@@ -39,6 +39,12 @@
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s;
   }
+
+  .tech-icon {
+    color: var(--font-color-bright);
+    font-size: 1.5em; /* Adjust size as needed */
+    padding: 0.1em;
+  }
   
   .project-card a:hover {
     background-color: var(--font-color-bright);
