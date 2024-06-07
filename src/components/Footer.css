@@ -19,8 +19,8 @@
   align-items: center;
 }
 
-.icon {
-  width: 24px; /* Adjust size as needed */
+.footer-icon {
+  width: 24px;
   height: 24px;
   margin-right: 8px;
 }
