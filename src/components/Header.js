@@ -1,15 +1,14 @@
-import styled from 'styled-components';
-
-const HeaderContainer = styled.header`
-  padding: ${({ theme }) => theme.spacing.padding};
-  background: ${({ theme }) => theme.colors.primary};
-  color: ${({ theme }) => theme.colors.light};
-`;
+import './Header.css';
 
 const Header = () => (
-  <HeaderContainer>
-    <h1>George Ball</h1>
-  </HeaderContainer>
+  <header className="header-container">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 );
 
 export default Header;
