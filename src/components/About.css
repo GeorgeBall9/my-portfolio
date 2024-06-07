@@ -1,0 +1,27 @@
+/* src/components/About.css */
+
+.about-container {
+    padding: 4em 1em;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--card-background-color);
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content h1 {
+    color: var(--font-color-heading);
+    margin-bottom: 1em;
+  }
+  
+  .about-content p {
+    color: var(--font-color-base);
+    margin-bottom: 1em;
+    line-height: 1.6;
+  }
+  
