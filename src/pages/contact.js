@@ -10,7 +10,10 @@ const Contact = () => (
     </Head>
     <Header />
     <main>
-      <ContactForm />
+      <section className="contact-section">
+        <h1>Contact Me</h1>
+        <ContactForm />
+      </section>
     </main>
     <Footer />
   </>
