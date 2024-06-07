@@ -1,0 +1,58 @@
+/* src/components/ProjectsSection.css */
+
+.projects {
+    padding: 4em 1em;
+    background: var(--background-color);
+  }
+  
+  .projects-container {
+    max-width: 1200px; /* Adjusted max-width for better spacing */
+    margin: 0 auto;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ensures even distribution */
+    gap: 1em;
+  }
+  
+  .project-card {
+    background: var(--card-background-color);
+    padding: 1.5em; /* Adjusted padding */
+    margin: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 250px; /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .project-card h3 {
+    color: var(--font-color-heading);
+    margin-bottom: 0.5em;
+  }
+  
+  .project-card p {
+    color: var(--font-color-base);
+    flex-grow: 1; /* Ensures the description takes up available space */
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 1em;
+    color: var(--font-color-bright);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border: 1px solid var(--font-color-bright);
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .project-card a:hover {
+    background-color: var(--font-color-bright);
+    color: var(--background-color);
+  }
+  
