@@ -4,8 +4,13 @@ import emailjs from 'emailjs-com';
 const Form = styled.form`
   display: flex;
   flex-direction: column;
-  gap: ${({ theme }) => theme.spacing.margin};
-  padding: ${({ theme }) => theme.spacing.padding};
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #181818;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 `;
 
 const ContactForm = () => {
