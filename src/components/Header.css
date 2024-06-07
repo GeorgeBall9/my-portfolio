@@ -30,4 +30,24 @@
     color: var(--font-color-heading3);
     border-radius: 4px;
   }
+
+  .nav-link {
+    color: var(--font-color-bright);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .nav-icon {
+    margin-right: 8px;
+    color: var(--icon-color);
+  }
+  
+  .nav-link:hover {
+    background: #555;
+    color: white;
+    border-radius: 4px;
+  }
   
