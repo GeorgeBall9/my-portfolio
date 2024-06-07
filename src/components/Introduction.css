@@ -1,0 +1,24 @@
+/* src/components/Introduction.css */
+
+.introduction {
+    padding: 4em 1em;
+    background: var(--background-color);
+    color: var(--font-color-heading);
+    text-align: center;
+  }
+  
+  .introduction-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .introduction h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .introduction p {
+    font-size: 1.2em;
+    color: var(--font-color-base);
+  }
+  
