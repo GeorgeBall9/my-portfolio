@@ -5,18 +5,21 @@ const projects = [
     description:
       "Restaurant discovery app that allows users to search for restaurants based on their location and preferences.",
     link: "/projects/project-one",
+    tech: ["React", "Firebase", "Zustand"],
   },
   {
     date: 2023,
-    title: "Project Two",
-    description: "Description of project two...",
+    title: "Python Machine Learning Tool",
+    description: "A Machine Learning tool for credit card clustering. Developed for my Thesis.",
     link: "/projects/project-two",
+    tech: ["Python", "Scikit-learn", "Pandas"],
   },
   {
     date: 2023,
-    title: "Project Three",
-    description: "Description of project three...",
+    title: "Unify",
+    description: "A Spotify powered web application that allows people with compatible music tastes to connect!",
     link: "/projects/project-three",
+    tech: ["React", "Spotify API", "Firebase","Zustand"],
   },
   // Add more projects as needed
 ];
