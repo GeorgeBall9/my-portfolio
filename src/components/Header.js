@@ -30,16 +30,6 @@ const Header = () => (
           About
         </a>
       </Link>
-      <Link href="/#projects" legacyBehavior>
-        <a className="nav-link">
-          <img
-            src="/images/icons/project-management.svg"
-            alt="Projects Icon"
-            className="nav-icon"
-          />{" "}
-          Projects
-        </a>
-      </Link>
       <Link href="/contact" legacyBehavior>
         <a className="nav-link">
         <img src="/images/icons/mail.svg" alt="About Icon" className="nav-icon" /> Contact
