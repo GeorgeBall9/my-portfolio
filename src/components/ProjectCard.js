@@ -8,7 +8,7 @@ const techIcons = {
   Firebase: "/images/icons/database.svg",
   Python: "/images/icons/python.svg",
   "Scikit-learn": "/images/icons/scikit-learn.svg",
-  Pandas: "/images/icons/pandas.svg",
+  Pandas: "/images/icons/Pandas.svg",
   "Spotify API": "/images/icons/spotify.svg",
   Zustand: "/images/icons/bear.svg",
 };
