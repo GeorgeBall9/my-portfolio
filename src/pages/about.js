@@ -28,7 +28,7 @@ const About = () => (
           various others.
         </p>
         <p>
-          When I&apos;m not coding, I enjoy sports and weight training, playing video games,
+          When I&apos;m not coding, I enjoy sports and weight training,
           and exploring new places. I&apos;m always eager to learn and grow, both
           personally and professionally.
         </p>
