@@ -1,63 +1,99 @@
 /* styles/ProjectPage.css */
 
 .project-page {
-    padding: 4em 1em;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
-  }
-  
-  .project-page h1 {
-    font-size: 2.5em;
-    margin-bottom: 1em;
-    color: var(--font-color-heading);
-  }
-  
-  .extended-description {
-    font-size: 1.2em;
-    color: var(--font-color-base);
-    margin-bottom: 2em;
-  }
-  
-  .extended-description h2 {
-    font-size: 1.8em;
-    margin-top: 1em;
-    color: var(--font-color-heading);
-  }
-  
-  .extended-description p {
-    margin-bottom: 1em;
-    line-height: 1.6;
-  }
-  
-  .extended-description ul {
-    margin-bottom: 1em;
-    padding-left: 20px;
-  }
-  
-  .extended-description li {
-    margin-bottom: 0.5em;
-  }
-  
-  .project-images-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1em;
-  }
-  
-  .image-container {
-    text-align: center;
-  }
-  
-  .image-container img {
-    width: 100%;
-    border-radius: 8px;
-    object-fit: contain;
-  }
-  
-  .image-caption {
-    font-size: 0.9em;
-    color: var(--font-color-muted);
-    margin-top: 0.5em;
-  }
-  
+  padding: 4em 1em;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.project-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  color: var(--font-color-heading);
+}
+
+.extended-description {
+  font-size: 1.2em;
+  color: var(--font-color-base);
+  margin-bottom: 2em;
+}
+
+.extended-description h2 {
+  font-size: 1.8em;
+  margin-top: 1em;
+  color: var(--font-color-heading);
+}
+
+.extended-description p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+
+.extended-description ul {
+  margin-bottom: 1em;
+  padding-left: 20px;
+}
+
+.extended-description li {
+  margin-bottom: 0.5em;
+}
+
+.project-images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.project-slideshow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-container {
+  text-align: center;
+  position: relative;
+  width: 800px;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.image-caption {
+  font-size: 0.9em;
+  color: var(--font-color-muted);
+  margin-top: 0.5em;
+}
+
+.slideshow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slideshow-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slideshow-button.previous {
+  left: 10px;
+}
+
+.slideshow-button.next {
+  right: 10px;
+}
