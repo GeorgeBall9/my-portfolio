@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import ReactMarkdown from "react-markdown";
 import projects from "../../utils/projects";
@@ -6,7 +6,12 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./ProjectPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight, faTimes, faExpand } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowLeft,
+  faArrowRight,
+  faTimes,
+  faExpand,
+} from "@fortawesome/free-solid-svg-icons";
 
 import Image from "next/image";
 
@@ -16,6 +21,15 @@ const ProjectPage = () => {
   const project = projects.find((project) => project.id === id);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (project) {
+      project.images.forEach((image) => {
+        const preloadImage= new window.Image();
+        preloadImage.src = image.src;
+      });
+    }
+  }, [project]);
 
   if (!project) {
     return <p>Project not found</p>;
