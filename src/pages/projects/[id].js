@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./ProjectPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faArrowRight, faTimes, faExpand } from "@fortawesome/free-solid-svg-icons";
 
 import Image from "next/image";
 
@@ -59,7 +59,7 @@ const ProjectPage = () => {
             >
               <FontAwesomeIcon icon={faArrowLeft} />
             </button>
-            <div onClick={openModal} className="image-wrapper">
+            <div className="image-wrapper">
               <Image
                 src={currentImage.src}
                 alt={`${project.title} image ${currentImageIndex + 1}`}
@@ -69,6 +69,9 @@ const ProjectPage = () => {
             </div>
             <button onClick={handleNextImage} className="slideshow-button next">
               <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+            <button onClick={openModal} className="expand-button">
+              <FontAwesomeIcon icon={faExpand} />
             </button>
             <p className="image-caption">{currentImage.caption}</p>
           </div>
