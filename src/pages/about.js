@@ -13,7 +13,7 @@ const About = () => (
       <section className="about-content">
         <h1>About Me</h1>
         <p>
-          Hey, I&apos;m George. I&apos;m an aspiring software developer based in the UK.
+          Hey, I&apos;m George. I&apos;m a software engineer @ Capgemini, based in the UK
           I&apos;m passionate about creating innovative solutions and building
           engaging user experiences. I&apos;ve recently obtained an MSc in Computer
           Science from Newcastle University, where I developed my skills in
