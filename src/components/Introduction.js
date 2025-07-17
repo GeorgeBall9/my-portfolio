@@ -7,7 +7,7 @@ const Introduction = () => (
       <div className="introduction-container">
         <h1>Hey, I&apos;m George</h1>
         <p>
-          Welcome to my personal website. I&apos;m an aspiring software engineer who
+          Welcome to my personal website. I&apos;m a software engineer who
           loves to create and learn about technology.
         </p>
       </div>
