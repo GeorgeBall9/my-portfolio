@@ -13,7 +13,7 @@ const Introduction = () => (
       </div>
       <div className="profile-pic-container">
         <Image
-          src="/images/git_profile.jpg"
+          src="/images/git_profile.JPG"
           alt="George's Profile Picture"
           width={200}
           height={200}
